@@ -3,13 +3,13 @@ entries:
   cluster-api-aws:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-08-04T10:52:06.514964+09:00"
+    created: "2021-08-04T12:53:31.472775+09:00"
     description: A chart to install Kubernetes cluster using Cluster API Provider
       AWS
-    digest: 0a04bc716dfde9e9dae7095bd94b393f1f8e13a0870569f4c8f09fe82fdfd28d
+    digest: fbc2df9f37b01892ad67a157d69fd3fecbc717f03c414a389efa8eb3fe0b12ab
     name: cluster-api-aws
     type: application
     urls:
     - cluster-api-aws-0.1.2.tgz
     version: 0.1.2
-generated: "2021-08-04T10:52:06.513229+09:00"
+generated: "2021-08-04T12:53:31.468105+09:00"
