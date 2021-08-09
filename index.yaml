@@ -32,6 +32,6 @@ entries:
     name: prepare-etcd-secret
     type: application
     urls:
-    - https:///ktkfree.github.io/test-helm-chart/prepare-etcd-secret-0.1.1.tgz
+    - https://ktkfree.github.io/test-helm-chart/prepare-etcd-secret-0.1.1.tgz
     version: 0.1.1
 generated: "2021-08-09T16:45:10.096466+09:00"
