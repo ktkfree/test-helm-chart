@@ -3,7 +3,7 @@ entries:
   cluster-api-aws:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-08-05T10:49:38.010842+09:00"
+    created: "2021-08-09T16:45:10.099925+09:00"
     description: A chart to install Kubernetes cluster using Cluster API Provider
       AWS
     digest: 994561304d05dbfc84608e6a0a9139c79b673aed75c43b0e3b5b26c5b1adab32
@@ -14,7 +14,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-08-05T10:49:38.01039+09:00"
+    created: "2021-08-09T16:45:10.099265+09:00"
     description: A chart to install Kubernetes cluster using Cluster API Provider
       AWS
     digest: 0326957007a0206b4f888e95b5d79eb55253d26492ae2e05fb5c870c66b5474b
@@ -23,4 +23,15 @@ entries:
     urls:
     - cluster-api-aws-0.1.2.tgz
     version: 0.1.2
-generated: "2021-08-05T10:49:38.009435+09:00"
+  prepare-etcd-secret:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-08-09T16:45:10.100624+09:00"
+    description: create etcd secret for prometheus
+    digest: 3ef4479dd6773ab3c14dece770f23c09ee645972e1ff3448464dc76788005b25
+    name: prepare-etcd-secret
+    type: application
+    urls:
+    - prepare-etcd-secret-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-08-09T16:45:10.096466+09:00"
