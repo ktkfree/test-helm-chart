@@ -3,7 +3,7 @@ entries:
   cluster-api-aws:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-02-18T14:19:53.259222+09:00"
+    created: "2022-03-18T09:52:27.18384+09:00"
     description: A chart to install Kubernetes cluster using Cluster API Provider
       AWS
     digest: 994561304d05dbfc84608e6a0a9139c79b673aed75c43b0e3b5b26c5b1adab32
@@ -14,7 +14,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-02-18T14:19:53.258822+09:00"
+    created: "2022-03-18T09:52:27.181635+09:00"
     description: A chart to install Kubernetes cluster using Cluster API Provider
       AWS
     digest: 0326957007a0206b4f888e95b5d79eb55253d26492ae2e05fb5c870c66b5474b
@@ -26,7 +26,7 @@ entries:
   jaeger-operator:
   - apiVersion: v1
     appVersion: 1.31.0
-    created: "2022-02-18T14:19:53.259803+09:00"
+    created: "2022-03-18T09:52:27.18514+09:00"
     description: jaeger-operator Helm chart for Kubernetes
     digest: 7d2fff54b80578bc640460a95f0d9ad907f1a0ef66a49f908a05bec8f02e5050
     home: https://www.jaegertracing.io/
@@ -45,7 +45,7 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-18T14:19:53.265782+09:00"
+    created: "2022-03-18T09:52:27.191945+09:00"
     description: Kubernetes Resources for TACO Project
     digest: 2e2b455b17018d9fcbab35f14b323d63a553d7a4f8dbb9be765592cc6a4fade7
     name: lma-addons
@@ -55,7 +55,7 @@ entries:
   prepare-etcd-secret:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-18T14:19:53.266085+09:00"
+    created: "2022-03-18T09:52:27.19556+09:00"
     description: create etcd secret for prometheus
     digest: 3ef4479dd6773ab3c14dece770f23c09ee645972e1ff3448464dc76788005b25
     name: prepare-etcd-secret
@@ -66,7 +66,7 @@ entries:
   servicemesh-jaeger-resource:
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2022-02-18T14:19:53.26715+09:00"
+    created: "2022-03-18T09:52:27.19759+09:00"
     description: A chart for jaeger resource related to service mesh
     digest: 9fb1f19a25b9914b8847b5a92c574d0cc2e82c10b1a0497eb48461197415ff8d
     name: servicemesh-jaeger-resource
@@ -77,7 +77,7 @@ entries:
   servicemesh-kiali-resource:
   - apiVersion: v2
     appVersion: v1.46.0
-    created: "2022-02-18T14:19:53.267675+09:00"
+    created: "2022-03-18T09:52:27.20027+09:00"
     description: A chart for kiali resource related to service mesh
     digest: aae5e5f6319d06fbd7b5e84a38e40b22bbc5acc7a87ebe5de7c949e5f9bf3fd7
     name: servicemesh-kiali-resource
@@ -88,7 +88,7 @@ entries:
   tks-info:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-18T14:19:53.268291+09:00"
+    created: "2022-03-18T09:52:27.202495+09:00"
     description: A Helm chart for tks-info
     digest: 4f051910e70aeb62e773ec89d29d233cab59d4069ee9bb2530db15296ae2a411
     name: tks-info
@@ -96,4 +96,15 @@ entries:
     urls:
     - tks-info-0.1.2.tgz
     version: 0.1.2
-generated: "2022-02-18T14:19:53.258234+09:00"
+  tks-portal:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-18T09:52:27.226277+09:00"
+    description: A chart for tks-portal resource related to service mesh
+    digest: 6aaf762d1cae765a7aa20882e43c2b7b9c004c2b2eab73a9be09c7d2e285b787
+    name: tks-portal
+    type: application
+    urls:
+    - tks-portal-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-18T09:52:27.179207+09:00"
